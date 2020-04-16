@@ -40,5 +40,5 @@ Each of us had varying experiences when it came to hackathons, ranging from a fi
 ## What's next for Covidtivity
 As we wrap up the project, our next step with Covidtivity is to fine tune the aspects of the application that require extra attention (e.g., rewards system) and continue our outreach with local businesses that support this application. 
 
-#Covidtivity App Demo
+## Covidtivity App Demo
 https://youtu.be/6IfEpAF-gqE 
