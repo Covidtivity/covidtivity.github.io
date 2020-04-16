@@ -1,37 +1,44 @@
-## Welcome to GitHub Pages
+# Covidtivity
+## Inspiration
+We started this project out on a Miro board featuring a WIDE variety of topics and ideas to play around with. At the end of the day, we were all affected by the work from home and shelter-in-place regulations, which have caused us to stay cooped and unable to support and socialize at the regular businesses we frequent. 
 
-You can use the [editor on GitHub](https://github.com/Covidtivity/covidtivity.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+So we thought to ourselves, "How can we help both?" And stumbled upon the idea of creating an application that would not only help folks stay sane and productive at home, but game-ify it in a way where it can help users come back every day to support the businesses we love that have been affected. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+#Research 
+In order to solidify what activities we wanted to go with for the application, we sent out a user survey. Over 90 individuals responded back about which habits they desired to implement during the shelter-in-place and lock down regulations.
 
-### Markdown
+With the responses we came up with Covidtivity! A 3-in-1 application that provides the user with daily habit tracking activities revolving around the three main areas to work on while working from home: productivity, health, and happiness.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## What it does
+Covidtivity separates the three categories of productivity, health, and happiness, and provides researched-based tasks that have shown to help positively increase all three. 
 
-```markdown
-Syntax highlighted code block
+With the point system, users have the ability to reach the minimum number of points available with added bonuses if they so choose. These points, then accumulate and can be redeemed for vouchers provided by surrounding businesses depending on the geo-location of the user.
 
-# Header 1
-## Header 2
-### Header 3
+## How we built it
+Covidtivity is a cross platform mobile application. Some of the technologies we used to build it include:
 
-- Bulleted
-- List
+- React Native - This framework allowed us to maintain a single codebase for the mobile app that can be deployed to both Android and iOS.
+- Expo - This is a build system and set of libraries that help automate and simply the process of creating React Native apps. Futhermore, we used it to test the app locally on our own devices and emulators.
+- Typescript - This is a type-safe language that compiles to Javascript and allowed us to ensure the mobile app would be free of runtime errors by catching type inconsistencies at compile time.
+- TSX & Styled Components - These technologies allowed us to define the components and screens that make up our Views in the application.
+- React-Navigation - This library allowed us to compose our application together to form the entire mobile app.
 
-1. Numbered
-2. List
+## Challenges we ran into
+What project doesn't come with challenges? For us, the challenges ranged from the logistics to the actual project itself! 
+Let's go through them: 
 
-**Bold** and _Italic_ and `Code` text
+(1) Finding a common meeting time: With two full-time graduate students, a working employee, and a teammate on the other side of the country, figuring out the optimal time for discussions & finding a communication platform that resulted in the least amount of connectivity issues was common during our "every 2-3 day" check in
 
-[Link](url) and ![Image](src)
-```
+(2) Simplifying the design: Of course, applications can come with many screens, but as hard as it is to whip up a 20 page mobile facing interface, we had to keep in mind that it would be even harder to code all of it. So simplifying version 1 of our prototype took hours of consideration and contemplation, discussing whether one design would work over the other due to potential coding complications and overfilling the user flow.  
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Accomplishments that we're proud of
+Despite the challenges, we were all able to share our expertise in our respective fields while creating a positive and communicative environment for questions to ensure that we can be on the same page. 
 
-### Jekyll Themes
+## What we learned
+Each of us had varying experiences when it came to hackathons, ranging from a first time hacker to an experienced hacker. So we had to set expectations on the work to be done early to make sure that we would all be on the right track. Throughout our journey, we learned more about what goes into mobile application development, as well as the limitations that deal with app production. We also learned about how quickly we needed to have information ready fir each other and the value of such so that we could have time to find holes within our application that needed to be figured out.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Covidtivity/covidtivity.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## What's next for Covidtivity
+As we wrap up the project, our next step with Covidtivity is to fine tune the aspects of the application that require extra attention (e.g., rewards system) and continue our outreach with local businesses that support this application. 
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+#Covidtivity App Demo
+https://youtu.be/6IfEpAF-gqE 
